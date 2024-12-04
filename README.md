@@ -48,18 +48,6 @@ We experimented with three models:
    - Models were evaluated on test data using AUC (Area Under the Receiver Operating Characteristic Curve).
    - Classification reports and confusion matrices provided additional performance insights.
 
-## Results
-
-| Model                | Test AUC  |
-|-----------------------|-----------|
-| Logistic Regression  | 0.5055    |
-| LSTM                 | 0.5055    |
-| BERT                 | 0.5212    |
-
-- **Logistic Regression**: Established the baseline performance.
-- **LSTM**: Captured some sequential patterns but did not outperform the baseline.
-- **BERT**: Achieved the best AUC score, highlighting the power of transformer models for NLP tasks.
-
 ## Challenges
 
 1. **Complexity of the Stock Market**:
@@ -99,19 +87,6 @@ We experimented with three models:
    ```
 2. Follow the cells in the notebook for step-by-step execution.
 
-## Files in the Repository
-
-- `stock_market_prediction.ipynb`: Jupyter notebook containing the project code and analysis.
-- `requirements.txt`: List of required Python packages.
-- `README.md`: This file.
-
-## Conclusion
-
-While predicting stock market movements from news headlines is an exciting challenge, it remains a highly complex task due to the multifactorial nature of the stock market. This project demonstrates the potential of machine learning and deep learning in financial prediction while highlighting the limitations of relying solely on news data.
-
-## Author
-
-- Your Name
 
 ## License
 
